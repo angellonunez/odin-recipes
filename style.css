@@ -10,10 +10,45 @@ body {
     text-align: center;
 }
 
+ul,
+ol {
+    list-style: none;
+}
+
 #main-title {
     color: red;
 }
 
 .links {
     margin-top: 20px;
+}
+
+.recipe-title {
+    font-size: 30px;
+    color: orange;
+}
+
+.recipe-picture {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.recipe-ingredients-title,
+.recipe-steps-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 0 10px 0;
+}
+
+.recipe-ingredients-title {
+    background-color: antiquewhite;
+    color: gray;
+}
+
+.recipe-steps-title {
+    background-color: aqua;
+    color: brown;
 }
